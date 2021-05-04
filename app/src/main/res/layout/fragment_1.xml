@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1.Fragment1"
+    android:background="#484948">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/add_Song"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#484948">
+        <ImageView
+            android:id="@+id/add_Song_Image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/round_add_circle_outline_24" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新建歌單"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/add_Song_Image"
+            android:layout_marginStart="8dp"
+            android:textColor="#dedede"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/song_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/add_Song"
+        android:divider="@null">
+    </ListView>
+</RelativeLayout>

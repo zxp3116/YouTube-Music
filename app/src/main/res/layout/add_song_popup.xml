@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <TextView
+        android:id="@+id/add_Song_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="新建歌單"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/add_Song_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_Song_Text"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/add_Song_Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_Song_Edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="確定"/>
+    <Button
+        android:id="@+id/add_Song_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_Song_Edit"
+        android:layout_toStartOf="@+id/add_Song_Confirm"
+        android:layout_marginEnd="8dp"
+        android:text="取消"/>
+</RelativeLayout>

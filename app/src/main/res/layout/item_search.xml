@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484948">
+    <ImageView
+        android:id="@+id/youTube_Image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:id="@+id/youTube_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/youTube_Image"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:textSize="20sp"
+        android:textColor="#dedede"/>
+    <TextView
+        android:id="@+id/youTube_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/youTube_Image"
+        android:layout_above="@+id/view_seach"
+        android:layout_toStartOf="@+id/youTube_More"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:textColor="#b5b5b5"/>
+    <ImageView
+        android:id="@+id/youTube_More"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/round_add_24"
+        android:layout_above="@+id/view_seach"/>
+    <View
+        android:id="@+id/view_seach"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/youTube_Image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#a4a4a4" />
+</RelativeLayout>
