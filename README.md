@@ -11,6 +11,6 @@
 
 使用到的第三方類庫：gson、volley、pierfrancescosoffritti.androidyoutubeplayer、glide、viewmodel-ktx、livedata-ktx、CustomPopwindow、appcompat、material
 
-![YouTube音樂播放器示例圖](https://user-images.githubusercontent.com/71322458/118898099-592a7e00-b93e-11eb-8a43-c335e0008d2b.png)
+![YouTube音樂播放器示例圖](https://user-images.githubusercontent.com/71322458/118898188-8d05a380-b93e-11eb-8211-52f02a9d24a6.png)
 
-![Screenshot_20210520-073515](https://user-images.githubusercontent.com/71322458/118898101-59c31480-b93e-11eb-8f2e-000bd87e2e2b.png)
+![Screenshot_20210520-073515](https://user-images.githubusercontent.com/71322458/118898186-8c6d0d00-b93e-11eb-94e5-b497d5ae73b9.png)
